@@ -1,0 +1,28 @@
+/**********管家婆财贸事业部产品性能测试报告**********/
+报告生成时间：2018年1月8日8时27分0秒
+产品名称：管家婆工贸ERPT3 V17.5-网络版
+服务器CPU型号：Intel(R) Xeon(R) CPU E5-2603 v3 @ 1.60GHz
+服务器内存大小：16.0 GB
+服务器操作系统：Microsoft Windows Server 2008 R2 Enterprise Service Pack 1 (Build 6.1.7601, 64-bit)
+数据库版本：Microsoft SQL Server 2005 - 9.00.1399.06 (X64) 
+	Oct 14 2005 00:35:21 
+	Copyright (c) 1988-2005 Microsoft Corporation
+	Developer Edition (64-bit) on Windows NT 6.1 (Build 7601: Service Pack 1)
+
+性能记录数据：
+最长时间,平均时间,模块名称,内部名称,存储过程名称,次数,行数
+55.238,55.238,单据选择:生产任务单,frmSelectBillProduceRole,P_Jxc_BillCheckAcceptSelectBillProcedureRole,1,6715
+54.065,54.065,主界面,frmMain,P_Jxc_BillCheckAcceptSelectBillProcedureRole,1,6740
+37.066,32.592,主界面,frmMain,P_XIWA_GoodsDetail_buy,3,29
+35.224,7.07,主界面,frmMain,P_Cost_Account_Month,1754,0
+27.92,3.933,主界面,frmMain,P_jxc_DlyNdxQuery,1164,1
+23.89,9.182,主界面,frmMain,P_XIWA_StockDetail,9,2018
+9.845,4.346,主界面,frmMain,p_XIWA_GoodsStockLay,12,3
+6.214,6.214,主界面,frmMain,P_SC_GetPtypeQtyInMRP,1,311
+5.55,4.158,主界面,frmMain,P_Inf_BaseMove_20791,6,0
+4.779,3.8,主界面,frmMain,P_XIWA_PkuCunList,3,441
+4.721,4.211,主界面,frmMain,P_XIWA_StockQtyGatherByGroup,2,3
+4.173,3.622,主界面,frmMain,P_Bill_Save_ProduceDraw,2,0
+3.949,3.475,主界面,frmMain,P_XIWA_StockDetail_Qty,4,210
+3.577,3.577,主界面,frmMain,P_XIWA_GetGoodsList,1,4
+3.118,3.118,单据选择:生产任务单,frmDrawGetBillByVchType,P_jxc_DlyNdxSCQuery,1,4287
